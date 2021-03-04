@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(61, 161, 168);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: aqua
+}
+
+header h1 {
+  line-height: 1em;
+  color: darkblue;
+  text-align: left;
+  padding: 0 2em;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+  overflow: hidden;
+  background-color: rgb(100, 128, 128);
+  display: flex;
+  justify-content: flex-end; 
+}
+
+nav li {
+  display: inline;
+  margin: 0 1em;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: lightsalmon;
+}
+nav a:active {
+  color: lightgreen;
+}
+
+.fishTank {
+  margin: 1em 0;
+  display: flex;
+  width: 80%;
+}
+
+#FishList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+}
+
+.fish-card {
+  background-color: lightcyan;
+  margin: .5em;
+  max-width: 200px;
+}
+
+.fish-card ul {
+  list-style-type:none;
+  padding: .5em;
+  margin: .2em;
+  font-size: .8em;
+}
+
+.fish-image {
+  width: 100%;
+  height: auto;
+}
+
+.section-main {
+  margin: 1em;
+}
+.harvestListSection {
+  border: lightblue;
+  float: right;
+  width: 20%;
+}
+#harvestLocationList {
+  display: flex;
+  float: right;
+  flex-wrap: wrap;
+  justify-content: right;	
+  color: black;
+}
+
+footer {
+  background-color: darkcyan;
+  color: whitesmoke;
+  text-align: center;
+}
+/* .aside {
+      left: 40px;
+      color: rgb(255, 251, 251);
+      background-color: #022a74;
+      display: block;
+      float: right;
+      padding: 15px;
+      margin: 15px;
+      width: 15%;
+  }
+.harvestLocations {
+  background-color: #245160;
+  padding: 20px;
+  margin: 0px;
+  float: right;
+}
+
+#harvestLocations{
+display: flex;
+flex-wrap:wrap; 
+padding: 20px;
+}
+
+#tipList{
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;	
+  color: black;
+}
+
+.tip-card {
+    margin: .5em;
+    border: black;
+    padding: .5em;
+    max-width: 200px;
+}
+
+.tip-card ul {
+    margin: 2px;
+    padding: .5em;
+    margin: .2em;
+    text-align: left;
+    font-size: .8em;
+}
+
+*/ 
+   
